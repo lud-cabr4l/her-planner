@@ -1,16 +1,86 @@
-# React + Vite
+# ♡ Her Planner – Organização Feminina
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Her Planner** é uma aplicação web desenvolvida para auxiliar na organização da rotina pessoal, permitindo gerenciar tarefas, acompanhar metas e manter a produtividade de maneira simples e intuitiva.
 
-Currently, two official plugins are available:
+O projeto foi desenvolvido como atividade acadêmica, utilizando React e JavaScript, com estrutura de Single Page Application (SPA).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Funcionalidades
 
-## React Compiler
+- **Login e cadastro:** acesso por meio de uma conta criada na aplicação.
+- **Início:** painel com uma visão geral das atividades.
+- **Tarefas:** adicionar, editar, concluir e excluir tarefas.
+- **Metas:** cadastrar objetivos e acompanhar seu progresso.
+- **Persistência de dados:** informações armazenadas no navegador utilizando LocalStorage.
+- **Sessão:** mantém o usuário conectado mesmo após atualizar a página.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Lucide React
+- LocalStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Como executar o projeto
+
+1. Clone este repositório:
+
+```bash
+git clone URL_DO_SEU_REPOSITORIO
+```
+
+2. Entre na pasta do projeto:
+
+```bash
+cd her-planner
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute o projeto:
+
+```bash
+npm run dev
+```
+
+5. Abra no navegador o endereço disponibilizado pelo Vite, geralmente:
+
+```text
+http://localhost:5173
+```
+
+## 📁 Estrutura do projeto
+
+```text
+her-planner/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+## 📌 Sobre a aplicação
+
+O Her Planner foi desenvolvido como uma Single Page Application (SPA), utilizando React para construir uma interface dinâmica e interativa.
+
+A navegação entre as funcionalidades acontece sem a necessidade de recarregar completamente a página. O gerenciamento de estados é realizado com o hook `useState`, enquanto o LocalStorage permite armazenar informações no próprio navegador.
+
+O projeto possui finalidade acadêmica e demonstrativa. O sistema de autenticação é local e não deve ser utilizado para armazenar senhas reais.
+
+## 👩🏻‍💻 Autoria
+
+Projeto acadêmico desenvolvido por **Ludmila Cabral**.
+
+**Her Planner – Organize sua rotina, alcance seus objetivos e cuide de você! ♡**
